@@ -5,7 +5,7 @@ int		main(void)
 {
 	int		cntr;
 	int		i;
-	8char		*str;
+	char		*str;
 	char		*m;
 
 	m = "Bananas";
