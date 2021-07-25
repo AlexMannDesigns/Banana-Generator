@@ -13,9 +13,14 @@ int		main(void)
 	i = 1;
 	printf("Enter amount of bananas: ");
 	scanf(" %d", &cntr);
-	if (cntr <= 0)
+	if (cntr == 0)
 	{
 		printf("No bananas found here.\n");
+		return (1);
+	}
+	if (cntr < 0)
+	{
+		printf("Negative bananas do not count.\n");
 		return (1);
 	}
 	while (i <= cntr)
